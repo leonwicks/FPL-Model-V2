@@ -1,0 +1,23 @@
+fpl:
+  base_url: https://fantasy.premierleague.com/api/
+  request_delay_seconds: 0.2
+football_data_uk:
+  base_url: https://www.football-data.co.uk/mmz4281
+  competitions:
+    E0: Premier League
+    E1: Championship
+fbref:
+  base_url: https://fbref.com
+  request_delay_seconds: 8.0
+  competitions:
+    premier_league:
+      id: 9
+      name: Premier League
+    championship:
+      id: 10
+      name: Championship
+understat:
+  base_url: https://understat.com
+  request_delay_seconds: 2.0
+  competition: EPL
+

@@ -1,0 +1,28 @@
+{
+  "failed_requests": 0,
+  "failed_urls": [],
+  "finished_at": "2026-08-18T16:35:03.936039+00:00",
+  "git_commit_sha": "960151b546c701d4f6df6fb40dd977296f71dd34",
+  "pipeline_version": "0.1.0",
+  "processed_tables": {},
+  "python_version": "3.13.15",
+  "raw_files": [
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2026-27\\2026-08-18\\league.html",
+      "retrieved_at_utc": "2026-08-18T16:35:03.881683+00:00",
+      "sha256": "c31bd6941a07167bd739276244ec3789b3f77528f2bef9e03f6cf16469434e7f",
+      "size": 18655,
+      "source_url": "https://understat.com/league/EPL/2026"
+    }
+  ],
+  "raw_files_written": 1,
+  "requested_urls": 1,
+  "root": "data\\manifests",
+  "run_id": "20260818T163503245889Z_understat",
+  "source": "understat",
+  "started_at": "2026-08-18T16:35:03.176757+00:00",
+  "status": "failed",
+  "successful_requests": 1
+}
