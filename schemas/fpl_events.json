@@ -1,0 +1,175 @@
+{
+  "columns": {
+    "average_entry_score": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "can_enter": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "can_manage": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "chip_plays": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "competition": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "cup_leagues_created": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "data_checked": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "deadline_time_epoch": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "deadline_time_game_offset": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "deadline_time_utc": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "datetime64[us, UTC]"
+    },
+    "event": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "finished": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "h2h_ko_matches_created": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "highest_score": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "object"
+    },
+    "highest_scoring_entry": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "object"
+    },
+    "ingested_at_utc": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "datetime64[us, UTC]"
+    },
+    "is_current": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "is_next": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "is_previous": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "most_captained": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "object"
+    },
+    "most_selected": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "object"
+    },
+    "most_transferred_in": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "object"
+    },
+    "most_vice_captained": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "object"
+    },
+    "name": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "overrides": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "ranked_count": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "release_time_utc": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "datetime64[s, UTC]"
+    },
+    "released": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "season": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "source": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "source_url": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "top_element": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "object"
+    },
+    "top_element_info": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "object"
+    },
+    "transfers_made": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    }
+  },
+  "schema": "fpl_events"
+}

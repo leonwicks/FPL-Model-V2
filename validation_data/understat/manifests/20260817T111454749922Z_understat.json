@@ -1,0 +1,23 @@
+{
+  "failed_requests": 1,
+  "failed_urls": [
+    {
+      "error": "Failed to retrieve https://understat.com/league/EPL/2026 after 5 attempts",
+      "url": "https://understat.com/league/EPL/2026"
+    }
+  ],
+  "finished_at": "2026-08-17T11:15:13.855210+00:00",
+  "git_commit_sha": "960151b546c701d4f6df6fb40dd977296f71dd34",
+  "pipeline_version": "0.1.0",
+  "processed_tables": {},
+  "python_version": "3.13.15",
+  "raw_files": [],
+  "raw_files_written": 0,
+  "requested_urls": 1,
+  "root": "validation_data\\understat\\manifests",
+  "run_id": "20260817T111454749922Z_understat",
+  "source": "understat",
+  "started_at": "2026-08-17T11:14:54.693586+00:00",
+  "status": "failed",
+  "successful_requests": 0
+}

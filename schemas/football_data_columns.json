@@ -1,0 +1,775 @@
+{
+  "columns": {
+    "AC": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "AF": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "AHCh": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "AHh": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "AR": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "AS": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "AST": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "AY": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "Avg<2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "Avg>2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "AvgA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "AvgAHA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "AvgAHH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "AvgC<2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "AvgC>2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "AvgCA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "AvgCAHA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "AvgCAHH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "AvgCD": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "AvgCH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "AvgD": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "AvgH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "AwayTeam": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "B365<2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "B365>2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "B365A": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "B365AHA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "B365AHH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "B365C<2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "B365C>2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "B365CA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "B365CAHA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "B365CAHH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "B365CD": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "B365CH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "B365D": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "B365H": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFDA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFDCA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFDCD": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFDCH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFDD": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFDH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFE<2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFE>2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFEA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFEAHA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFEAHH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFEC<2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFEC>2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFECA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFECAHA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFECAHH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFECD": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFECH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFED": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BFEH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BMGMA": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BMGMCA": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BMGMCD": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BMGMCH": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BMGMD": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BMGMH": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BVA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BVCA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BVCD": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BVCH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BVD": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BVH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BWA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BWCA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BWCD": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BWCH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BWD": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "BWH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "CLA": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "CLCA": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "CLCD": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "CLCH": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "CLD": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "CLH": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "Date": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "Div": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "FTAG": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "FTHG": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "FTR": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "HC": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "HF": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "HR": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "HS": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "HST": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "HTAG": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "HTHG": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "HTR": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "HY": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "HomeTeam": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "LBA": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "LBCA": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "LBCD": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "LBCH": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "LBD": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "LBH": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "Max<2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "Max>2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "MaxA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "MaxAHA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "MaxAHH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "MaxC<2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "MaxC>2.5": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "MaxCA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "MaxCAHA": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "MaxCAHH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "MaxCD": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "MaxCH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "MaxD": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "MaxH": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "P<2.5": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "P>2.5": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "PAHA": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "PAHH": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "PC<2.5": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "PC>2.5": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "PCAHA": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "PCAHH": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "PPA": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "PPCA": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "PPCD": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "PPCH": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "PPD": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "PPH": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "PSA": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "PSCA": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "PSCD": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "PSCH": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "PSD": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "PSH": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "Referee": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "SKBA": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "SKBCA": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "SKBCD": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "SKBCH": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "SKBD": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "SKBH": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "Time": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "competition": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "division_code": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "football_data_match_key": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "ingested_at_utc": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "datetime64[us, UTC]"
+    },
+    "kickoff_local": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "datetime64[us, Europe/London]"
+    },
+    "kickoff_time_utc": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "datetime64[us, UTC]"
+    },
+    "match_date": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "string"
+    },
+    "season": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "source": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "source_url": {
+      "first_season": "2026-27",
+      "last_season": "2025-26",
+      "type": "str"
+    }
+  },
+  "schema": "football_data_columns"
+}

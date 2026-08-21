@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+data/raw/
+data/processed/
+data/manifests/
+schemas/*_candidate.json
+/.coverage
+/.hypothesis/
+/.mypy_cache/
+/.ruff_cache/
+/.test-tmp/
+/.validation-test-tmp-2/
+/.venv_validation/

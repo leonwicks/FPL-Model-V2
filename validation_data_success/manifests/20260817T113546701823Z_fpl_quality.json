@@ -1,0 +1,97 @@
+{
+  "cross_source": {
+    "season": "2025-26",
+    "team_counts": {
+      "football_data_uk": 20,
+      "fpl": 20
+    },
+    "validation_warnings": []
+  },
+  "fpl_events": {
+    "column_count": 34,
+    "critical_field_null_percentages": {
+      "event": 0.0
+    },
+    "dates": {
+      "deadline_time_utc": {
+        "maximum": "2027-05-30T13:30:00+00:00",
+        "minimum": "2026-08-21T17:30:00+00:00"
+      }
+    },
+    "duplicate_key_count": 0,
+    "missing_columns": [],
+    "new_columns": [],
+    "row_count": 38,
+    "structure_changes": [],
+    "type_changes": [],
+    "unique_matches": null,
+    "unique_players": null,
+    "unique_teams": null,
+    "validation_warnings": []
+  },
+  "fpl_fixtures": {
+    "column_count": 22,
+    "critical_field_null_percentages": {
+      "fixture_id": 0.0,
+      "team_a": 0.0,
+      "team_h": 0.0
+    },
+    "dates": {
+      "kickoff_time_utc": {
+        "maximum": "2027-05-30T15:00:00+00:00",
+        "minimum": "2026-08-21T19:00:00+00:00"
+      }
+    },
+    "duplicate_key_count": 0,
+    "missing_columns": [],
+    "new_columns": [],
+    "row_count": 380,
+    "structure_changes": [],
+    "type_changes": [],
+    "unique_matches": 380,
+    "unique_players": null,
+    "unique_teams": null,
+    "validation_warnings": []
+  },
+  "fpl_player_season_history": {
+    "column_count": 37,
+    "critical_field_null_percentages": {
+      "fpl_player_id": 0.0,
+      "season_name": 0.0
+    },
+    "dates": {},
+    "duplicate_key_count": 0,
+    "missing_columns": [],
+    "new_columns": [],
+    "row_count": 2032,
+    "structure_changes": [],
+    "type_changes": [],
+    "unique_matches": null,
+    "unique_players": 504,
+    "unique_teams": null,
+    "validation_warnings": []
+  },
+  "fpl_player_snapshot": {
+    "column_count": 115,
+    "critical_field_null_percentages": {
+      "fpl_player_id": 0.0,
+      "team_id": 0.0
+    },
+    "dates": {
+      "snapshot_time_utc": {
+        "maximum": "2026-08-17T11:35:47.201199+00:00",
+        "minimum": "2026-08-17T11:35:47.201199+00:00"
+      }
+    },
+    "duplicate_key_count": 0,
+    "missing_columns": [],
+    "new_columns": [],
+    "row_count": 587,
+    "structure_changes": [],
+    "type_changes": [],
+    "unique_matches": null,
+    "unique_players": 587,
+    "unique_teams": 20,
+    "validation_warnings": []
+  }
+}

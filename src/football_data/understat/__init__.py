@@ -1,0 +1,1 @@
+"""Understat page ingestion."""

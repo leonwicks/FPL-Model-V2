@@ -1,0 +1,600 @@
+{
+  "columns": {
+    "assists": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "birth_date": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "bonus": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "bps": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "can_select": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "can_transact": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "chance_of_playing_next_round": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "chance_of_playing_this_round": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "object"
+    },
+    "clean_sheets": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "clean_sheets_per_90": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "clearances_blocks_interceptions": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "code": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "competition": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "corners_and_indirect_freekicks_order": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "corners_and_indirect_freekicks_text": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "cost_change_event": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "cost_change_event_fall": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "cost_change_start": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "cost_change_start_fall": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "creativity": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "creativity_rank": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "creativity_rank_type": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "defensive_contribution": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "defensive_contribution_per_90": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "direct_freekicks_order": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "direct_freekicks_text": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "dreamteam_count": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "element_type": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "ep_next": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "ep_this": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "object"
+    },
+    "event_points": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "expected_assists": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "expected_assists_per_90": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "expected_goal_involvements": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "expected_goal_involvements_per_90": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "expected_goals": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "expected_goals_conceded": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "expected_goals_conceded_per_90": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "expected_goals_per_90": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "first_name": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "form": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "form_rank": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "form_rank_type": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "fpl_player_id": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "goals_conceded": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "goals_conceded_per_90": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "goals_scored": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "has_temporary_code": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "ict_index": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "ict_index_rank": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "ict_index_rank_type": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "in_dreamteam": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "influence": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "influence_rank": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "influence_rank_type": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "ingested_at_utc": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "datetime64[us, UTC]"
+    },
+    "known_name": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "minutes": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "news": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "news_added": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "now_cost": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "now_cost_rank": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "now_cost_rank_type": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "opta_code": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "own_goals": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "penalties_missed": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "penalties_order": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "penalties_saved": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "penalties_text": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "photo": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "points_per_game": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "points_per_game_rank": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "points_per_game_rank_type": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "position": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "price_change_calibrating": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "price_change_hourly_rate": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "price_change_locked_until": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "object"
+    },
+    "price_change_percent": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "price_change_projections": {
+      "first_season": "2026-27",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "recoveries": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "red_cards": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "region": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "removed": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "saves": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "saves_per_90": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "scout_news_link": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "scout_risks": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "season": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "second_name": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "selected_by_percent": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "selected_rank": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "selected_rank_type": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "snapshot_date": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "snapshot_time_utc": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "datetime64[us, UTC]"
+    },
+    "source": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "source_url": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "special": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "squad_number": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "object"
+    },
+    "starts": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "starts_per_90": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "float64"
+    },
+    "status": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "tackles": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "team_code": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "team_id": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "team_join_date": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "team_name": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "team_short_name": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "threat": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "threat_rank": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "threat_rank_type": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "total_points": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "transfers_in": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "transfers_in_event": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "transfers_out": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "transfers_out_event": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "value_form": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "value_season": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "web_name": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "yellow_cards": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    }
+  },
+  "schema": "fpl_player_snapshot"
+}

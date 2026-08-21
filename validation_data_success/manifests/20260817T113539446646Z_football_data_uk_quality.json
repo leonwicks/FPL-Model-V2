@@ -1,0 +1,134 @@
+{
+  "2025-26_E0": {
+    "column_count": 142,
+    "critical_field_null_percentages": {
+      "AwayTeam": 0.0,
+      "HomeTeam": 0.0
+    },
+    "dates": {
+      "kickoff_time_utc": {
+        "maximum": "2026-05-24T15:00:00+00:00",
+        "minimum": "2025-08-15T19:00:00+00:00"
+      }
+    },
+    "duplicate_key_count": 0,
+    "missing_columns": [
+      "PPA",
+      "PPCA",
+      "PPCD",
+      "PPCH",
+      "PPD",
+      "PPH",
+      "SKBA",
+      "SKBCA",
+      "SKBCD",
+      "SKBCH",
+      "SKBD",
+      "SKBH"
+    ],
+    "new_columns": [
+      "BMGMA",
+      "BMGMCA",
+      "BMGMCD",
+      "BMGMCH",
+      "BMGMD",
+      "BMGMH",
+      "CLA",
+      "CLCA",
+      "CLCD",
+      "CLCH",
+      "CLD",
+      "CLH",
+      "LBA",
+      "LBCA",
+      "LBCD",
+      "LBCH",
+      "LBD",
+      "LBH",
+      "P<2.5",
+      "P>2.5",
+      "PAHA",
+      "PAHH",
+      "PC<2.5",
+      "PC>2.5",
+      "PCAHA",
+      "PCAHH",
+      "PSA",
+      "PSCA",
+      "PSCD",
+      "PSCH",
+      "PSD",
+      "PSH"
+    ],
+    "row_count": 380,
+    "structure_changes": [],
+    "type_changes": [],
+    "unique_matches": 380,
+    "unique_players": null,
+    "unique_teams": 20,
+    "validation_warnings": []
+  },
+  "2025-26_E1": {
+    "column_count": 142,
+    "critical_field_null_percentages": {
+      "AwayTeam": 0.0,
+      "HomeTeam": 0.0
+    },
+    "dates": {
+      "kickoff_time_utc": {
+        "maximum": "2026-05-02T11:30:00+00:00",
+        "minimum": "2025-08-08T19:00:00+00:00"
+      }
+    },
+    "duplicate_key_count": 0,
+    "missing_columns": [
+      "PPA",
+      "PPCA",
+      "PPCD",
+      "PPCH",
+      "PPD",
+      "PPH",
+      "SKBA",
+      "SKBCA",
+      "SKBCD",
+      "SKBCH",
+      "SKBD",
+      "SKBH"
+    ],
+    "new_columns": [],
+    "row_count": 552,
+    "structure_changes": [],
+    "type_changes": [],
+    "unique_matches": 552,
+    "unique_players": null,
+    "unique_teams": 24,
+    "validation_warnings": []
+  },
+  "cross_source": {
+    "season": "2025-26",
+    "team_counts": {
+      "football_data_uk": 20
+    },
+    "validation_warnings": []
+  },
+  "football_data_matches": {
+    "column_count": 142,
+    "critical_field_null_percentages": {
+      "AwayTeam": 0.0,
+      "HomeTeam": 0.0,
+      "football_data_match_key": 0.0
+    },
+    "dates": {
+      "kickoff_time_utc": {
+        "maximum": "2026-05-24T15:00:00+00:00",
+        "minimum": "2025-08-08T19:00:00+00:00"
+      }
+    },
+    "duplicate_key_count": 0,
+    "row_count": 932,
+    "unique_matches": 932,
+    "unique_players": null,
+    "unique_teams": 44,
+    "validation_warnings": []
+  }
+}
