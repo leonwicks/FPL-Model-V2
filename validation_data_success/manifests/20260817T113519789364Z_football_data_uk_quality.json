@@ -1,0 +1,27 @@
+{
+  "2026-27_E0": {
+    "column_count": 122,
+    "critical_field_null_percentages": {
+      "AwayTeam": 0.0,
+      "HomeTeam": 0.0
+    },
+    "dates": {
+      "kickoff_time_utc": {
+        "maximum": "2026-08-08T14:00:00+00:00",
+        "minimum": "2026-08-08T14:00:00+00:00"
+      }
+    },
+    "duplicate_key_count": 0,
+    "missing_columns": [],
+    "new_columns": [],
+    "row_count": 12,
+    "structure_changes": [],
+    "type_changes": [],
+    "unique_matches": 12,
+    "unique_players": null,
+    "unique_teams": 12,
+    "validation_warnings": [
+      "Only 12 of roughly 380 matches present"
+    ]
+  }
+}

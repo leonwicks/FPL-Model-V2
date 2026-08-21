@@ -1,0 +1,115 @@
+{
+  "columns": {
+    "code": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "competition": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "event": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "finished": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "finished_provisional": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "fixture_id": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "ingested_at_utc": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "datetime64[us, UTC]"
+    },
+    "kickoff_time_utc": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "datetime64[us, UTC]"
+    },
+    "minutes": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "provisional_start_time": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "pulse_id": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "season": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "source": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "source_url": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "started": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "bool"
+    },
+    "stats": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "str"
+    },
+    "team_a": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "team_a_difficulty": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "team_a_score": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "object"
+    },
+    "team_h": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "team_h_difficulty": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "int64"
+    },
+    "team_h_score": {
+      "first_season": "2025-26",
+      "last_season": "2026-27",
+      "type": "object"
+    }
+  },
+  "schema": "fpl_fixtures"
+}

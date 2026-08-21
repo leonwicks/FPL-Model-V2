@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+body { background: #071b14; color: #f6f2df; font-family: Arial, Helvetica, sans-serif; }
+.page-shell { min-height: 100svh; padding: clamp(12px, 2.5vw, 36px); background: radial-gradient(circle at 50% 0%, #174f37 0, #071b14 58%); }
+.pitch { position: relative; isolation: isolate; overflow: hidden; min-height: calc(100svh - clamp(24px, 5vw, 72px)); max-width: 1280px; margin: auto; padding: clamp(26px, 4vw, 58px) clamp(18px, 4vw, 64px) 30px; border: 2px solid rgba(250, 247, 228, .72); border-radius: 20px; background: repeating-linear-gradient(90deg, #187b45 0 10.5%, #146f3d 10.5% 21%); box-shadow: 0 24px 70px rgba(0, 0, 0, .35), inset 0 0 70px rgba(0, 30, 10, .25); }
+.pitch::after { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: radial-gradient(ellipse at center, transparent 25%, rgba(0, 42, 20, .2) 100%); }
+.pitch__header { position: relative; z-index: 2; text-align: center; text-shadow: 0 2px 15px rgba(0, 36, 15, .9); }
+.eyebrow { margin: 0 0 8px; color: #d8eac5; font-size: 11px; font-weight: 800; letter-spacing: .18em; }
+h1 { margin: 0; color: #fffced; font-family: Georgia, "Times New Roman", serif; font-size: clamp(42px, 7vw, 78px); font-weight: 600; letter-spacing: -.055em; line-height: .9; }
+h1 em { color: #f5c34d; font-style: italic; }
+.subtitle { margin: 12px 0 0; color: #e9f2df; font-size: 14px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.pitch__markings span { position: absolute; display: block; border-color: rgba(253, 251, 228, .64); border-style: solid; pointer-events: none; }
+.halfway-line { width: 100%; left: 0; top: 50%; border-width: 1px 0 0; }
+.centre-circle { width: min(19vw, 220px); aspect-ratio: 1; left: 50%; top: 50%; border-width: 1px; border-radius: 50%; transform: translate(-50%, -50%); }
+.penalty-box { width: min(34vw, 420px); height: 15%; left: 50%; border-width: 1px; transform: translateX(-50%); }
+.penalty-box--top { top: -1px; border-top: 0 !important; border-radius: 0 0 120px 120px; }
+.penalty-box--bottom { bottom: -1px; border-bottom: 0 !important; border-radius: 120px 120px 0 0; }
+.squad { position: relative; z-index: 1; display: grid; gap: clamp(20px, 4.2vh, 44px); margin: clamp(30px, 6vh, 64px) 0 30px; }
+.position-row { position: relative; min-width: 0; }
+.position-label { position: absolute; left: 0; top: 50%; z-index: 1; margin: 0; color: rgba(240, 249, 224, .78); font-size: 9px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; writing-mode: vertical-rl; transform: translateY(-50%) rotate(180deg); }
+.players { display: grid; align-items: start; gap: clamp(8px, 2vw, 28px); padding-left: 24px; }
+.players--2 { grid-template-columns: repeat(2, minmax(0, 150px)); justify-content: center; }
+.players--3 { grid-template-columns: repeat(3, minmax(0, 150px)); justify-content: center; }
+.players--5 { grid-template-columns: repeat(5, minmax(0, 160px)); }
+.player { min-width: 0; text-align: center; text-shadow: 0 2px 8px rgba(0, 35, 14, .95); }
+.shirt { --shirt: #ce252e; position: relative; display: block; width: clamp(43px, 5.6vw, 66px); height: clamp(44px, 5.8vw, 70px); margin: 0 auto 8px; border: 2px solid rgba(255,255,255,.64); border-radius: 9px 9px 14px 14px; background: var(--shirt); box-shadow: 0 5px 10px rgba(0, 35, 14, .35); clip-path: polygon(22% 0, 37% 10%, 63% 10%, 78% 0, 100% 16%, 87% 40%, 82% 100%, 18% 100%, 13% 40%, 0 16%); }
+.shirt::before { content:""; position:absolute; inset: 0; background: var(--pattern, none); }
+.shirt__collar { position: absolute; z-index: 1; left: 50%; top: 5px; width: 21%; height: 12%; border: 2px solid rgba(255,255,255,.84); border-top: 0; border-radius: 0 0 9px 9px; transform: translateX(-50%); }
+.shirt--united { --shirt:#d4242e; --pattern: linear-gradient(90deg, transparent 0 41%, #141b20 41% 59%, transparent 59%); }.shirt--sunderland { --shirt:#f4f1dc; --pattern: repeating-linear-gradient(90deg, #e02430 0 19%, #f8f7ea 19% 37%); }.shirt--spurs { --shirt:#f4f5ec; --pattern: linear-gradient(90deg, transparent 0 44%, #172e59 44% 56%, transparent 56%); }.shirt--fulham { --shirt:#f8f6e9; --pattern: linear-gradient(90deg, transparent 0 37%, #181a1c 37% 61%, #d32938 61% 69%, transparent 69%); }.shirt--palace { --shirt:#1e4c9b; --pattern: repeating-linear-gradient(90deg, #1e4c9b 0 29%, #d42b43 29% 43%, #1e4c9b 43% 72%); }.shirt--brentford { --shirt:#d42433; --pattern: repeating-linear-gradient(90deg, #d42433 0 31%, #f5f2e6 31% 43%, #d42433 43% 73%); }.shirt--liverpool { --shirt:#d81f35; }.shirt--arsenal { --shirt:#d82935; --pattern: linear-gradient(90deg, #f4f2e7 0 12%, #d82935 12% 88%, #f4f2e7 88%); }.shirt--city { --shirt:#82cae9; --pattern: linear-gradient(90deg, transparent 0 43%, #f7f0ce 43% 57%, transparent 57%); }.shirt--brighton { --shirt:#1767c1; --pattern: repeating-linear-gradient(90deg, #1767c1 0 30%, #f5f3e9 30% 43%, #1767c1 43% 73%); }.shirt--coventry { --shirt:#75b9e3; --pattern: linear-gradient(135deg, transparent 0 45%, #1e366a 45% 53%, transparent 53%); }
+.player h2 { margin: 0; color: white; font-size: clamp(12px, 1.45vw, 16px); font-weight: 800; line-height: 1.1; overflow-wrap: anywhere; }.player p { margin: 3px 0 0; color: #e4edd8; font-size: clamp(10px, 1.1vw, 12px); font-weight: 600; line-height: 1.15; overflow-wrap: anywhere; }
+.pitch__footer { position: relative; z-index: 2; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 8px 12px; color: #eef1db; font-size: 11px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; text-align: center; }.footer-dot { width: 4px; height: 4px; border-radius: 50%; background: #f5c34d; }
+@media (max-width: 600px) { .page-shell { padding: 0; }.pitch { min-height: 100svh; border-width: 0; border-radius: 0; padding-inline: 12px; }.players { gap: 6px; padding-left: 17px; }.players--2, .players--3, .players--5 { grid-template-columns: repeat(var(--cols, 5), minmax(0, 1fr)); }.players--2 { --cols: 2; }.players--3 { --cols: 3; }.players--5 { --cols: 5; }.position-label { font-size: 7px; }.pitch__footer { font-size: 9px; } }
