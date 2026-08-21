@@ -1,0 +1,81 @@
+{
+  "2025-26_E0": {
+    "column_count": 19,
+    "critical_field_null_percentages": {
+      "AwayTeam": 0.0,
+      "HomeTeam": 0.0
+    },
+    "dates": {
+      "kickoff_time_utc": {
+        "maximum": "2025-08-09T14:00:00+00:00",
+        "minimum": "2025-08-01T19:00:00+00:00"
+      }
+    },
+    "duplicate_key_count": 0,
+    "missing_columns": [],
+    "new_columns": [],
+    "row_count": 2,
+    "structure_changes": [],
+    "type_changes": [],
+    "unique_matches": 2,
+    "unique_players": null,
+    "unique_teams": 2,
+    "validation_warnings": [
+      "Only 2 of roughly 380 matches present"
+    ]
+  },
+  "2025-26_E1": {
+    "column_count": 19,
+    "critical_field_null_percentages": {
+      "AwayTeam": 0.0,
+      "HomeTeam": 0.0
+    },
+    "dates": {
+      "kickoff_time_utc": {
+        "maximum": "2025-08-09T14:00:00+00:00",
+        "minimum": "2025-08-01T19:00:00+00:00"
+      }
+    },
+    "duplicate_key_count": 0,
+    "missing_columns": [],
+    "new_columns": [],
+    "row_count": 2,
+    "structure_changes": [],
+    "type_changes": [],
+    "unique_matches": 2,
+    "unique_players": null,
+    "unique_teams": 2,
+    "validation_warnings": [
+      "Only 2 of roughly 552 matches present"
+    ]
+  },
+  "cross_source": {
+    "season": "2025-26",
+    "team_counts": {
+      "football_data_uk": 2
+    },
+    "validation_warnings": [
+      "football_data_uk Premier League team count is 2, expected approximately 20"
+    ]
+  },
+  "football_data_matches": {
+    "column_count": 19,
+    "critical_field_null_percentages": {
+      "AwayTeam": 0.0,
+      "HomeTeam": 0.0,
+      "football_data_match_key": 0.0
+    },
+    "dates": {
+      "kickoff_time_utc": {
+        "maximum": "2025-08-09T14:00:00+00:00",
+        "minimum": "2025-08-01T19:00:00+00:00"
+      }
+    },
+    "duplicate_key_count": 0,
+    "row_count": 4,
+    "unique_matches": 4,
+    "unique_players": null,
+    "unique_teams": 2,
+    "validation_warnings": []
+  }
+}

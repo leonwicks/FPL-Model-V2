@@ -1,0 +1,61 @@
+{
+  "combined": {
+    "event": {
+      "column_count": 36,
+      "path": "data\\processed\\combined\\event\\data.parquet",
+      "raw_value_changes": 0,
+      "row_count": 38,
+      "source_table_row_counts": {
+        "fpl_events": 38
+      },
+      "validation_warnings": []
+    },
+    "match": {
+      "column_count": 24,
+      "path": "data\\processed\\combined\\match\\data.parquet",
+      "raw_value_changes": 0,
+      "row_count": 380,
+      "source_table_row_counts": {
+        "fpl_fixtures": 380
+      },
+      "validation_warnings": []
+    },
+    "player_season": {
+      "column_count": 39,
+      "path": "data\\processed\\combined\\player_season\\data.parquet",
+      "raw_value_changes": 0,
+      "row_count": 2124,
+      "source_table_row_counts": {
+        "fpl_player_season_history": 2124
+      },
+      "validation_warnings": []
+    },
+    "player_snapshot": {
+      "column_count": 121,
+      "path": "data\\processed\\combined\\player_snapshot\\data.parquet",
+      "raw_value_changes": 0,
+      "row_count": 592,
+      "source_table_row_counts": {
+        "fpl_player_snapshot": 592
+      },
+      "validation_warnings": []
+    }
+  },
+  "source_run_errors": {
+    "fbref": "No cached FBref page premier_league\\competition.html",
+    "football_data_uk": "No cached raw CSV for 2026-27 E0",
+    "understat": "No Understat JSON.parse payloads found"
+  },
+  "source_runs": {
+    "fpl": {
+      "processed_tables": {
+        "fpl_events": 38,
+        "fpl_fixtures": 380,
+        "fpl_player_season_history": 2124,
+        "fpl_player_snapshot": 592
+      },
+      "raw_files_written": 0,
+      "status": "success"
+    }
+  }
+}

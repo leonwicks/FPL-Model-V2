@@ -1,0 +1,285 @@
+{
+  "failed_requests": 1,
+  "failed_urls": [
+    {
+      "error": "Server disconnected without sending a response.",
+      "url": "https://understat.com/getMatchData/28816"
+    }
+  ],
+  "finished_at": "2026-08-18T17:20:44.711714+00:00",
+  "git_commit_sha": "960151b546c701d4f6df6fb40dd977296f71dd34",
+  "pipeline_version": "0.1.0",
+  "processed_tables": {},
+  "python_version": "3.13.15",
+  "raw_files": [
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\league_171853395309.html",
+      "retrieved_at_utc": "2026-08-18T17:18:53.395309+00:00",
+      "sha256": "426878a899d0a6bc280f5d07cac956cbb4fcbf283fdd03a9d0d56e554a3a215c",
+      "size": 18655,
+      "source_url": "https://understat.com/league/EPL/2025"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\league-data_171900637413.json",
+      "retrieved_at_utc": "2026-08-18T17:19:00.637413+00:00",
+      "sha256": "d401b18a3386d8168f03727b43b1ab5dc9092e0469e77a1561136baf25151f42",
+      "size": 529950,
+      "source_url": "https://understat.com/getLeagueData/EPL/2025"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28789.json",
+      "retrieved_at_utc": "2026-08-18T17:19:06.469540+00:00",
+      "sha256": "d214beec59b614a8dc38cf20544fbf17af0e0241447afd198d027019aa038e25",
+      "size": 37209,
+      "source_url": "https://understat.com/getMatchData/28789"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28790.json",
+      "retrieved_at_utc": "2026-08-18T17:19:11.173220+00:00",
+      "sha256": "27e06d525b7ee82c3d00d57a47c12fa268f635d43469e955369936879dd74e15",
+      "size": 39297,
+      "source_url": "https://understat.com/getMatchData/28790"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28791.json",
+      "retrieved_at_utc": "2026-08-18T17:19:15.215061+00:00",
+      "sha256": "1a66e83feb4293f8db7e61f9203c4ada7277934cc1f039978f434f5c73939162",
+      "size": 34922,
+      "source_url": "https://understat.com/getMatchData/28791"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28792.json",
+      "retrieved_at_utc": "2026-08-18T17:19:18.138496+00:00",
+      "sha256": "65b9ec4149b230ec192fc2f92137981a86c33780869a07a5c98bdaa6731e2cd7",
+      "size": 37405,
+      "source_url": "https://understat.com/getMatchData/28792"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28793.json",
+      "retrieved_at_utc": "2026-08-18T17:19:21.325226+00:00",
+      "sha256": "c485c3a94ba2bcf6ec875afa67cc022193236ad34dcb8bbce5b30da1eeb56fad",
+      "size": 36764,
+      "source_url": "https://understat.com/getMatchData/28793"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28794.json",
+      "retrieved_at_utc": "2026-08-18T17:19:23.867322+00:00",
+      "sha256": "214e0d0280d1f6001b2a5b4241f5fa0d5853d9f6f5c5624fe02159304d23bfe2",
+      "size": 34180,
+      "source_url": "https://understat.com/getMatchData/28794"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28795.json",
+      "retrieved_at_utc": "2026-08-18T17:19:27.363004+00:00",
+      "sha256": "7412a62f8c9e03b50bf0660461cfeae62bd4fc5e873d70399591d7623890bc28",
+      "size": 37389,
+      "source_url": "https://understat.com/getMatchData/28795"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28796.json",
+      "retrieved_at_utc": "2026-08-18T17:19:29.831103+00:00",
+      "sha256": "8999ce9e9d5c6e886076542b204ca75e37177151596f2bdfadd96287220ecd04",
+      "size": 36989,
+      "source_url": "https://understat.com/getMatchData/28796"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28797.json",
+      "retrieved_at_utc": "2026-08-18T17:19:33.693257+00:00",
+      "sha256": "5cadd496904ab89618dc47de782566e39d006b1f983ca2581ef7f7259da4cfb4",
+      "size": 35148,
+      "source_url": "https://understat.com/getMatchData/28797"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28798.json",
+      "retrieved_at_utc": "2026-08-18T17:19:36.679986+00:00",
+      "sha256": "2d8c76d71c65230cc87a33490f473d2f19202adcf898615b8f89d9397a0a6107",
+      "size": 38607,
+      "source_url": "https://understat.com/getMatchData/28798"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28799.json",
+      "retrieved_at_utc": "2026-08-18T17:19:39.291745+00:00",
+      "sha256": "d4bda86bf9112a3725eec19caa07b4de8f61e32b9ac8076c579716aa37685d2f",
+      "size": 37699,
+      "source_url": "https://understat.com/getMatchData/28799"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28800.json",
+      "retrieved_at_utc": "2026-08-18T17:19:43.285234+00:00",
+      "sha256": "763ca3bb91a00c5c3b0c6fc6cc66a6ab8cf93afa0810601a14a09d6dcd6d5789",
+      "size": 37777,
+      "source_url": "https://understat.com/getMatchData/28800"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28801.json",
+      "retrieved_at_utc": "2026-08-18T17:19:46.855863+00:00",
+      "sha256": "fb24713aa5a75a281fdca2fc8e6148efe8ed80d66eab9dd3ee2e7773939a8647",
+      "size": 33556,
+      "source_url": "https://understat.com/getMatchData/28801"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28802.json",
+      "retrieved_at_utc": "2026-08-18T17:19:49.980938+00:00",
+      "sha256": "d11fdfd3f72619a2b39c00e44b3aefa097ecfb00049ccfdc551fdb4e17132b50",
+      "size": 42092,
+      "source_url": "https://understat.com/getMatchData/28802"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28803.json",
+      "retrieved_at_utc": "2026-08-18T17:19:52.610381+00:00",
+      "sha256": "2debefb1d11b06ec697c27f0a20b3e80e2956c286329e608070a0d765570b385",
+      "size": 33525,
+      "source_url": "https://understat.com/getMatchData/28803"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28804.json",
+      "retrieved_at_utc": "2026-08-18T17:19:55.891567+00:00",
+      "sha256": "8e98c1dae3f07c46cfbc63319df27f4660fc7587dfea846e7e58150205aa67c2",
+      "size": 35223,
+      "source_url": "https://understat.com/getMatchData/28804"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28805.json",
+      "retrieved_at_utc": "2026-08-18T17:19:58.289939+00:00",
+      "sha256": "d9830ca20c4fe8755c73abb91cceef0c789b9284d66570bb02c8194c82b00dca",
+      "size": 37758,
+      "source_url": "https://understat.com/getMatchData/28805"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28806.json",
+      "retrieved_at_utc": "2026-08-18T17:20:01.560812+00:00",
+      "sha256": "beb98db79a3249bd299bcbbad1b44285b63b474b20a1ffc63b03b36d5aa4224e",
+      "size": 35069,
+      "source_url": "https://understat.com/getMatchData/28806"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28807.json",
+      "retrieved_at_utc": "2026-08-18T17:20:07.085898+00:00",
+      "sha256": "b6bf29738080702818c7cf1ec7b97e9c814b0e35331c803e625eabfc25663d15",
+      "size": 35730,
+      "source_url": "https://understat.com/getMatchData/28807"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28808.json",
+      "retrieved_at_utc": "2026-08-18T17:20:13.093936+00:00",
+      "sha256": "e3d921e3a305be89720f7602b509e899034ca6a0e58edeea825f9ce5581d4c91",
+      "size": 36716,
+      "source_url": "https://understat.com/getMatchData/28808"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28809.json",
+      "retrieved_at_utc": "2026-08-18T17:20:16.132322+00:00",
+      "sha256": "81c7bac14e6007a0c131a5abd1a7b846eaafdbd00c2da5a4daff4c2c0a42007c",
+      "size": 37810,
+      "source_url": "https://understat.com/getMatchData/28809"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28810.json",
+      "retrieved_at_utc": "2026-08-18T17:20:19.569937+00:00",
+      "sha256": "07a2a2561f1f5ba309562d2b79b909d95ef42720da44b427bc680cf9cdc949f3",
+      "size": 36833,
+      "source_url": "https://understat.com/getMatchData/28810"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28811.json",
+      "retrieved_at_utc": "2026-08-18T17:20:23.022365+00:00",
+      "sha256": "1616b688e3b78498ce84c71c8ce907b5c5f17bd48e604f8b654523ffe23dc1c1",
+      "size": 32139,
+      "source_url": "https://understat.com/getMatchData/28811"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28812.json",
+      "retrieved_at_utc": "2026-08-18T17:20:26.918813+00:00",
+      "sha256": "3649673946df6ecbf0b665ee8ce7c211f63b69779ba8c4c0b6e211e5920919c6",
+      "size": 36586,
+      "source_url": "https://understat.com/getMatchData/28812"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28813.json",
+      "retrieved_at_utc": "2026-08-18T17:20:31.709599+00:00",
+      "sha256": "40bfc8490f6d82a5590eb15c224554269859d557fa129cd96f12bf2000f6a0c8",
+      "size": 33089,
+      "source_url": "https://understat.com/getMatchData/28813"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28814.json",
+      "retrieved_at_utc": "2026-08-18T17:20:35.608429+00:00",
+      "sha256": "4db064781580c642ab78d2efec13e56e73f77fc8a1ad96bff6065ba6f26ec91a",
+      "size": 36401,
+      "source_url": "https://understat.com/getMatchData/28814"
+    },
+    {
+      "content_type": "text/javascript;charset=UTF-8",
+      "http_status": 200,
+      "path": "data\\raw\\understat\\2025-26\\2026-08-18\\matches\\28815.json",
+      "retrieved_at_utc": "2026-08-18T17:20:39.656026+00:00",
+      "sha256": "27b486a9890b4fc024cad1b079269bd36b98a19e25e2386b89bab88f9d1f7135",
+      "size": 38752,
+      "source_url": "https://understat.com/getMatchData/28815"
+    }
+  ],
+  "raw_files_written": 29,
+  "requested_urls": 30,
+  "root": "data\\manifests",
+  "run_id": "20260818T171851033954Z_understat",
+  "source": "understat",
+  "started_at": "2026-08-18T17:18:50.986505+00:00",
+  "status": "failed",
+  "successful_requests": 29
+}

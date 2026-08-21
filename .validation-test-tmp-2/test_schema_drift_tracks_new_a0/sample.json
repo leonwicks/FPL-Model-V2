@@ -1,0 +1,20 @@
+{
+  "columns": {
+    "id": {
+      "first_season": null,
+      "last_season": null,
+      "type": "int64"
+    },
+    "new": {
+      "first_season": null,
+      "last_season": null,
+      "type": "float64"
+    },
+    "old": {
+      "first_season": null,
+      "last_season": null,
+      "type": "object"
+    }
+  },
+  "schema": "sample"
+}

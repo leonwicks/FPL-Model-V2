@@ -1,0 +1,23 @@
+{
+  "failed_requests": 1,
+  "failed_urls": [
+    {
+      "error": "Failed to retrieve https://www.football-data.co.uk/mmz4281/2627/E0.csv after 5 attempts",
+      "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv"
+    }
+  ],
+  "finished_at": "2026-08-18T16:29:48.521737+00:00",
+  "git_commit_sha": "960151b546c701d4f6df6fb40dd977296f71dd34",
+  "pipeline_version": "0.1.0",
+  "processed_tables": {},
+  "python_version": "3.13.15",
+  "raw_files": [],
+  "raw_files_written": 0,
+  "requested_urls": 1,
+  "root": "data\\manifests",
+  "run_id": "20260818T162930041715Z_football_data_uk",
+  "source": "football_data_uk",
+  "started_at": "2026-08-18T16:29:29.993037+00:00",
+  "status": "failed",
+  "successful_requests": 0
+}

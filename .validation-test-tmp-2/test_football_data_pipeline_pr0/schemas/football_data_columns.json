@@ -1,0 +1,100 @@
+{
+  "columns": {
+    "AwayTeam": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "B365H": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "float64"
+    },
+    "Date": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "Div": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "FTAG": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "FTHG": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "int64"
+    },
+    "FTR": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "HomeTeam": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "Time": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "competition": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "division_code": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "football_data_match_key": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "ingested_at_utc": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "datetime64[us, UTC]"
+    },
+    "kickoff_local": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "datetime64[us, Europe/London]"
+    },
+    "kickoff_time_utc": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "datetime64[us, UTC]"
+    },
+    "match_date": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "string"
+    },
+    "season": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "source": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "str"
+    },
+    "source_url": {
+      "first_season": "2025-26",
+      "last_season": "2025-26",
+      "type": "str"
+    }
+  },
+  "schema": "football_data_columns"
+}
